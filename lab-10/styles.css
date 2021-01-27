@@ -1,0 +1,9 @@
+table,tr,th{
+    width:33%;
+    border-collapse:collapse;
+    text-align:center;
+}
+table{
+    margin:auto;
+    background-color:lightblue;
+}

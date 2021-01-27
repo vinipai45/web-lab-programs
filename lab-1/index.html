@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Simple calculator</title>
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <table>
+            <th colspan="4">SIMPLE CALCULATOR</th>
+            <tr>
+                <td>value1</td>
+                <td><input type="number" id="value1" placeholder="0" /></td>
+                <td>value2</td>
+                <td><input type="number" id="value2" placeholder="0" /></td>
+            </tr>
+            <tr>
+                <td><button id="add" onclick="calculate(this.id)" >Add</button></td>
+                <td><button id="sub" onclick="calculate(this.id)" >Subtract</button></td>
+                <td><button id="mul" onclick="calculate(this.id)" >Multiply</button></td>
+                <td><button id="div" onclick="calculate(this.id)" >Divide</button></td>
+            </tr>
+            <tr>
+                <td>Result:</td>
+                <td><input id="result" placeholder="0" disabled /></td>
+                <td colspan="2" ><button id="clear" onclick="clearAll()" >CLEAR ALL</button></td>
+            </tr>
+        </table>
+
+        <script src="app.js" />
+    </body>
+</html>
